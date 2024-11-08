@@ -17,7 +17,7 @@ import shutil
 if __name__ == "__main__":
 
    # -- Parameters -- #    
-   mapname = "base" # .xlsx file with the data of the model you want to run located at MAPS_DIR
+   mapname = "input_template" # .xlsx file with the data of the model you want to run located at MAPS_DIR
    scenario = "summer"
    # ModelType.QP -> Social Welfare Maximization ; ModelType.MCP -> Cournot Competition Model
    model_type = ModelType.QP
